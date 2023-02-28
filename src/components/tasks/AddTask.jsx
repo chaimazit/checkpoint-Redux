@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { addTask } from '../../actions/taskActions';
+import { addTask } from '../../redux/actions/taskActions';
 import { useDispatch } from 'react-redux';
 
 const AddTask = () => {

@@ -1,8 +1,8 @@
 import { createStore } from 'redux';
-import taskReducer from './reducers/taskReducer';
+import taskReducers from './redux/reducers/taskReducers';
 
 const store = createStore(
-  taskReducer,
+  taskReducers,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 

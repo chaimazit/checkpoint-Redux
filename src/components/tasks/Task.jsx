@@ -4,7 +4,7 @@ import {
   setCurrentTask,
   deleteTask,
   toggleCompletedTask,
-} from '../../actions/taskActions';
+} from '../../redux/actions/taskActions';
 
 const Task = ({ todo: { id, description, isDone } }) => {
   const dispatch = useDispatch();

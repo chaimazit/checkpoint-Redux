@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { editTask } from '../../actions/taskActions';
+import { editTask } from '../../redux/actions/taskActions';
 
 const EditTask = () => {
   const current = useSelector(state => state.current);
